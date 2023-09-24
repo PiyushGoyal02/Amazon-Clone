@@ -1,0 +1,788 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 100wh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.first-dark-blue{
+    border: 2px solid #131A22;
+    background-color: #131A22;
+    color: whitesmoke;
+    height: 80px;
+    display: flex;
+}
+
+.amazon-photo{
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-photo:hover{
+    border: 3px solid white;
+}
+
+.location-address{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.location-address:hover{
+    border: 3px solid white;
+}
+
+.namaste{
+    margin-left:2em;
+}
+
+span.address{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fa-location-dot{
+    font-size:1px; 
+}
+
+.all-catalog-option{
+    width: 8em;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.search-amazon{
+    display: flex;
+    margin-left: 2em;
+    height: 3em;
+    margin-top: 1em;
+}
+
+.placeholder{
+    width: 45em;
+    height: 48px;
+}
+
+.search-icon{
+    border: 1px solid white;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.7em;
+    color: black;
+    background-color: #ECAE1E;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.search-icon:hover{
+    background-color: #EC9706;
+    font-weight: bold;
+}
+
+.indian-flag{
+    height: 25px;
+    margin: 0px 2px 1px 0px;
+}
+
+.all-language{
+    width: 95px;
+    height: 25px;
+}
+
+.language-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-flag:hover{
+    border: 3px solid white;
+}
+
+.hello-list{
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 17px;
+}
+
+.account-list{
+    height: 25px;
+    font-size: 15px;
+}
+
+.return-orders{
+    margin-left: 3em;
+    margin-top: 1.5em;
+}
+
+.return-orders:hover{
+    border: 3px solid white;
+}
+
+.return{
+    font-weight: 30px;
+    font-size: 15px;
+}
+
+.order{
+    font-weight: bold;
+    font-size: large;
+}
+
+.cart{
+    margin-left: 2em;
+    margin-top: 0.4em;
+}
+
+.fa-solid{
+    font-size: xx-large;
+}
+
+.zero{
+    font-size: x-large;
+    color:#EC9706;
+}
+
+.Cart{
+    font-size: larger;
+}
+
+.cart:hover{
+    border: 3px solid white;
+}
+
+
+.second-blue-box{
+    border: 2px solid black;
+    height: 55px;
+    background-color: #37475A;
+    color: white;
+}
+
+.menu-holder{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    margin-top: 0.5em;
+}
+
+.fa-bars{
+    margin-left: 0.5em
+}
+
+.alll{
+    margin-left: 0.6em;
+    font-size: 22px;
+}
+
+.minitv{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.sell{
+    margin-left: 0.6em;
+    font-size: 22px;
+}
+
+.seller{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.mob{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.today{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.new-re{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.cus-ser{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.pri{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.elec{
+    margin-left:0.6em;
+    font-size: 22px;
+}
+
+.fa-amazon{
+    margin-left: 1em;
+    font-size: xx-large;
+}
+
+.shaping{
+    margin-left: 0.2em;
+    font-size: larger;
+    color: yellow;
+}
+
+.container1{
+    width: 100%;
+    height: 5540px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #D3D3D3;
+}
+
+.chai-pati{
+    /* position: relative; */
+    width: 111em;
+    /* height: 300px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Bottom sai Image Fadded */
+    /* -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0)); */
+}
+
+.shooping-cart-1{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.box{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pic-box-1{
+    margin-top: 0.8em;
+    margin-left: 1em;
+}
+
+.picture-line-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8em;
+}
+
+.text-line-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lasthading-box-1{
+   margin-top: 3.5em;
+   margin-left: 2em;
+   font-weight: bold;
+   color: #007185;
+   cursor: pointer;
+}
+
+.lasthading-box-1:hover{
+    color: orangered;
+}
+
+.pic-box-2{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+
+.box-2-image{
+    margin: 10px;
+}
+
+.lasthading-box-2{
+    margin-top: 2.3em;
+    margin-left: 2em;
+    font-weight: bold;
+    color: #007185;
+}
+
+.lasthading-box-2:hover{
+    color: orangered;
+}
+
+.box-3-hading{
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.box-hading-4{
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.shooping-cart-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.3em;
+}
+
+.shop-cart-hading-1{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.lasthading-shop-cart-1{
+    margin-top: 2em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.lasthading-shop-cart-1:hover{
+    color: orangered;
+}
+
+.hading-shop-cart-2point{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.lasthading-shop-cart-2{
+    margin-top: 4em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.lasthading-shop-cart-2:hover{
+    color: orangered;
+}
+
+.hading-shop-cart-3point{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.lasthading-shop-cart-3{
+    margin-top: 4em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.lasthading-shop-cart-3:hover{
+    color: orangered;
+}
+
+.lasthading-shop-cart-4{
+    margin-top: 5em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.lasthading-shop-cart-4:hover{
+    color: orangered;
+}
+
+.big-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+    height: 400px;
+    cursor: pointer;
+}
+
+.shooping-cart-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.3em;
+}
+
+.shop-cart-3-hading{
+    margin-top: 1em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.shop-3-lastline-1{
+    margin-top: 3em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.shop-3-lastline-1:hover{
+    color: orangered;
+}
+
+.shop-3-lastline-2{
+    margin-top: 3em;
+    margin-left: 2em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.shop-3-lastline-2:hover{
+    color: orangered;
+}
+
+.big-image-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+    height: 400px;
+    cursor: pointer;
+}
+
+.shooping-cart-4{
+    height: 380px;
+    margin-top: 2em;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cart-4-hading{
+    margin-top: 15px;
+    margin-left: 0.5em;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.see-all{
+    margin-left: 1em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.image-collection-1{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+}
+
+.shooping-cart-5{
+    /* border: 2px solid black; */
+    height: 400px;
+    margin-top: 2em;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cart-5-hading{
+    margin-left: 2em;
+    font-size: 35px;
+}
+
+.cart-5-see-hading{
+    margin-left: 1em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.shop-cart-image-5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    height: 220px;
+    width: 105em;
+}
+
+.shop-cart-text-5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+}
+
+.buttons{
+    background-color: #cc0c39;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.span-5-deal{
+    margin-left: 0.5em;
+    color: #007185;
+    font-weight: bold;
+}
+
+.shooping-cart-6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+.shop-cart-6-hading{
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.cart-6-lastline{
+    margin-left: 1.5em;
+    margin-top: 5em;
+    font-weight: bold;
+    color: #007185;
+}
+
+.lucky-guy{
+    height: 200px;
+    width: 350px;
+    margin-top: 2em;
+}
+
+.lucky-guy-text{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    color: #007185;
+    font-weight: bold;
+}
+
+.lucky-guy-text:hover{
+    color: red;
+    text-decoration:underline;
+}
+
+.lucky-guy-hading{
+    margin-top: 2em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.man-image-1{
+    height: 180px;
+    width: 100px;
+    display: flex;
+    margin-left: 2em;
+    gap: 90px;
+    margin-top: 1em;
+}
+
+.man-image-2{
+    height: 180px;
+    width: 100px;
+    display: flex;
+    margin-left: 2.5em;
+    gap: 90px;
+    margin-top: 1em;
+}
+
+.big-image-three{
+    display: flex;
+    justify-content: center;
+    margin-left: 10em;
+    margin-top: 2.5em;
+    width: 90em;
+    height: 22em;
+}
+
+.show-frame-combo{
+    height: 280px;
+    background-color: white;
+    margin-top: 2.5em;
+}
+
+.show-frame-hading{
+    margin-top: 1em;
+    margin-left: 2em;
+    font-size: xx-large;
+}
+
+.show-frame-offers{
+    margin-left: 1.5em;
+    font-size: larger;
+    color: #007185;
+}
+
+.show-frame-image{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.namken-sweets-combo{
+    width: 100%;
+    height: 618px;
+    background-color: white;
+    margin-top: 2.5em;
+}
+
+.namken-sweets-hading{
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: xx-large;
+}
+
+.namken-sweets-offers{
+    margin-left: 1.5em;
+    font-size: larger;
+    color: #007185;
+}
+
+.namkeen-sweets-image{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-hr-line{
+    margin-top: 4em;
+}
+
+.line-hading{
+    font-weight: bold;
+}
+
+.line-contact{
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.strt-here-text{
+    font-weight: bold;
+    color: #007185;
+}
+
+.last-line-sign{
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    background-color:rgb(238, 238, 22);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.light-blue-color{
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.light-blue-color:hover{
+    background-color: #4d5c6e;
+}
+
+.footer-main-points{
+    height: 410px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.div-footer-box-3{
+    border-top: 0.2px white solid ;
+    height: 220px;
+    background-color: #232f3e;
+    color: white;
+}
+
+.amzon-logo-language{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.icon-select-button{
+    background-color: #232f3e;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+.amazon-chota-logo{
+    margin-right: 180px;
+}
+
+.horizontal-1st-part{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2.5em;
+}
+
+.horizontal-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.horizontal-2nd-part{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.last-dark-blue{
+    height: 370px;
+    background-color: #131A22;
+    color: white;
+}
+
+.first-line-last-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.margin1{
+    margin-top:1em;
+}
+
+.margin1:hover{
+    text-decoration: underline;
+}
+
+.second-line-last-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.margin2{
+    margin-top:2em;
+}
+
+.margin2:hover{
+    text-decoration: underline;
+}
+
+.final-last-line{
+    margin-top: 7em;
+    text-align: center;
+}
+
+.last-1-contant-series{
+    margin-right: 1em;
+}
+
+.last-2-contant-series{
+    margin-right: 1em;
+}
